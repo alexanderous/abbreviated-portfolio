@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Alexander Cheung Portfolio</title>
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:400,700,300" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3">
+</head>
+
+<body>
+	<div class="container">
+
+		<header class="row"><!-- I tried incorporating Bootstrap navbar at the end of this project's development, and it threw off all my CSS design. I wasn't interested in retooling it all, so I decided to leave Bootstrap out for now. -->
+			<div class="col-3">
+				<div class="left-header-block">
+					<img src="img_src/udacity-logo.png" alt="the Udacity logo" class="udacity-logo">
+				</div>
+			</div>
+			<div class="col-9">
+				<div class="right-header-block">
+					<h1>
+						Alexander Cheung
+					</h1>
+					<div class="subheading">
+						Front-End Developer and Designer
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<figure class="cover-photo">
+			<hr>
+			<div class="row">
+				<picture class="header-pic">
+					<source media="(min-width: 501px)" srcset="img/cloud-cover-1920.jpg 2x, img/cloud-cover-960.jpg" />
+					<source media="(min-width: 200px)" srcset="img/cloud-cover-1000.jpg 2x" />
+					<img src="img/cloud-cover-500.jpg" alt="big cloud above beach">
+				</picture>
+			</div>
+			<hr>
+		</figure>
+			
+		<section class="portfolio"><!-- TODO: add more projects -->
+			<h2>
+				Featured Work
+			</h2>
+			<div class="row">
+				<div class="col-4">
+					<a href="http://alexanderous.co/general-portfolio#/antho-1/">
+						<picture class="image-preview">
+							<source media="(min-width: 501px)" srcset="img/antho-one-640.jpg 2x, img/antho-one-320.jpg" />
+							<source media="(min-width: 200px)" srcset="img/antho-one-1000.jpg 2x" />
+							<!-- The reason why images are smaller at larger screen sizes is that three images appear in a row on a larger screen size, versus one image in a row in smaller screen sizes. -->
+							<!-- Min-width is set to 200px to capture all possibilities. -->
+							<img src="img/antho-one-500.jpg" alt="screenshot of a part of a story contribution, an element of the Antho app">
+						</picture>
+
+						<h3>
+							Antho One
+						</h3>
+						<div class="subtitle">
+							<p>Crowdsourced Life Story Network</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-4">
+					<a href="http://alexanderous.co/general-portfolio#/antho-ii/">
+						<picture class="image-preview">
+							<source media="(min-width: 501px)" srcset="img/antho-two-640.jpg 2x, img/antho-two-320.jpg" />
+							<source media="(min-width: 200px)" srcset="img/antho-two-1000.jpg 2x" />
+							<img src="img/antho-two-500.jpg" alt="life history museum sample, with a hero image of a couple on front">
+						</picture>
+						<h3>
+							Antho Two
+						</h3>
+						<div class="subtitle">
+							<p>Media-Rich Life History Museums</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-4">
+					<a href="http://alexanderous.co/general-portfolio#/inspired-development">
+						<picture class="image-preview">
+							<source media="(min-width: 501px)" srcset="img/aslp-640.jpg 2x, img/aslp-320.jpg" />
+							<source media="(min-width: 200px)" srcset="img/aslp-1000.jpg 2x" />
+							<img src="img/aslp-500.jpg" alt="retail training educational poster">
+						</picture>
+
+						<h3>
+							Apple
+						</h3>
+						<div class="subtitle">
+							<p>Global Retail Training Overhaul</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<hr>
+		</section>
+
+	</div>
+</body>
+
+</html>
