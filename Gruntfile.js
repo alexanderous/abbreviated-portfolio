@@ -1,4 +1,9 @@
 /*
+ The code here is mostly copy and pasted from the Grunt section in the Responsive Images 
+ course. I've kept the commenting here because I find it to be good reference material.
+*/
+
+/*
  After you have changed the settings under responsive_images
  run this with one of these options:
   "grunt" alone creates a new, completed images directory
